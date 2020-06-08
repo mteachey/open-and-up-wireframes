@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Open and Up - new post</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css" type="text/css">
+
+    </head>
+    <body>
+        <header>
+            <nav><p>Sign out</p></nav>
+            <h1>Share Some Positivity</h1>
+        </header>
+        <main>
+            <form class="post-form">
+                <div class="form-intro">
+                    <p>Please use this form to share some positivity with others.</p>
+                </div>
+                <fieldset class="type-selection">
+                    <legend>Type of Positivity</legend>
+                    <div>
+                        <input type="radio" id="story" name="type" value="story"/>
+                        <label for="story">Story</label><br/>
+                    </div>
+                    <div>
+                        <input type="radio" id="book" name="type" value="book"/>
+                        <label for="book">Book</label><br/>
+                    </div>
+                    <div>
+                        <input type="radio" id="music" name="type" value="music"/>
+                        <label for="music">Music</label><br/>
+                    </div>
+                    <div>
+                        <input type="radio" id="podcast" name="type" value="podcast"/>
+                        <label for="podcast">Podcast</label><br/>
+                    </div>
+                    <div>
+                        <input type="radio" id="event" name="type" value="event"/>
+                        <label for="radio">Event</label><br/>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Story</legend>
+                    <label for="story-text">Positive Story</label>
+                    <input type="text" name='story-text' id='story-text'/>
+                    <label for="img">Select image:</label>
+                    <input type="file" id="img" name="img" accept=".jpg, .gif, .png">
+                </fieldset>
+                <p>Similar fieldsets for other type options</p>
+               <button type="submit">Submit</button>
+               <button type="reset">Cancel</button>    
+               <p class="form-disclaimer">We realize that what constitutes postivity is subjective. Please know we reserve the right to remove any post that we do not find meets our guidelines. You are welcome to dispute any removed post and share your feelings regarding it.  You also are always welcome to decide to no longer use our app. Thank you for understanding!</p>           
+            </form>
+          
+        </main>
+        <footer><button>Home</button><button>My Posts</button><button>New Post</button><button>My Account</button></footer>
+    </body>
+</html>

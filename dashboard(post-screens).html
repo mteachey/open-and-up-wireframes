@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Open and Up Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css"> 
+    </head>
+    <body>
+        <nav>
+            <ul class="nav-list">
+                <li>Sign Out</li>
+            </ul>
+        </nav>
+        <main>
+            <header>
+                <h1>Open and Up</h1>
+            </header>
+            <section class="filter-form">
+               <button type="input">Stories</button>
+               <button type="input">Books</button> 
+               <button type="input">Music</button>
+               <button type="input">Podcasts</button>
+               <button type="input">Events</button>
+            </section>
+            <section class="search-form-container">
+                <form class="search-form">
+                    <label for="search-keywords">Search Posts</label>
+                    <input placeholder='good-deeds' type="text" name='search-keywords' id='search-keywords'/><br/>
+                    <label for="search-username">Search Username</label>
+                    <input placeholder='melinda' type="text" name='search-username' id='search-username'/>
+                    <button type="submit">Search</button>
+                </form>
+            </section>
+            <section class="results">
+                <header>
+                    <h2>Your Feed (this will depend on filters selected)</h2>
+                </header>
+                <div class="individual-post-container story-post">
+                    <div>
+                        <p>Username</p>
+                        <p>User Story</p>
+                        <p>Story Icon</p>
+                    </div>
+                    <div>
+                        <button>Follow this user (or unfollow)</button>
+                        <button>Bookmark this post</button>
+                        <button>Flag this post</button>
+                    </div>
+                </div>  
+                <div class="individual-post-container book-post">
+                    <div class="individual-post-info-area">
+                        <p>Username</p>
+                        <p>Book Title</p>
+                        <p>Book Author</p>
+                        <p>Book Description</p>
+                        <p>Book Icon</p>
+                    </div>
+                    <div class="individual-post-screenshot">
+                        <p>Place to upload a screenshot instead of entering info</p>
+                    </div>
+                    <div class="individual-post-buttons">
+                        <button>Follow this user (or unfollow)</button>
+                        <button>Bookmark this post</button>
+                        <button>Flag this post</button>
+                    </div>
+                    
+                </div>  
+                <div class="individual-post-container music-post">
+                    <div class="individual-post-info-area">
+                        <p>Username</p>
+                        <p>Song/Album Title</p>
+                        <p>Artist</p>
+                        <p>Link to listen</p>
+                        <p>Music Icon</p>
+                    </div>
+                    <div class="individual-post-screenshot">
+                        <p>Place to upload a screenshot instead of entering info</p>
+                    </div>
+                    <div class="individual-post-buttons">
+                        <button>Follow this user (or unfollow)</button>
+                        <button>Bookmark this post</button>
+                        <button>Flag this post</button>
+                    </div>
+                </div>  
+                <div class="individual-post-container event-post">
+                    <div class="individual-post-info-area">
+                        <p>Username</p>
+                        <p>Event Title</p>
+                        <p>Event Date</p>
+                        <p>Event Description</p>
+                        <p>Link to more info</p>
+                        <p>Event Icon</p>
+                    </div>
+                    <div class="individual-post-screenshot">
+                        <p>Place to upload a screenshot instead of entering info</p>
+                    </div>
+                    <div class="individual-post-buttons">
+                        <button>Follow this user (or unfollow)</button>
+                        <button>Bookmark this post</button>
+                        <button>Flag this post</button>
+                    </div>
+                </div>  
+                <div class="individual-post-container podcast-post">
+                    <div class="individual-post-info-area">
+                        <p>Username</p>
+                        <p>Podcast Title</p>
+                        <p>Podcast Description</p>
+                        <p>Link to listen</p>
+                        <p>Podcast Icon</p>
+                    </div>
+                    <div class="individual-post-screenshot">
+                        <p>Place to upload a screenshot instead of entering info</p>
+                    </div>
+                    <div class="individual-post-buttons">
+                        <button>Follow this user (or unfollow)</button>
+                        <button>Bookmark this post</button>
+                        <button>Flag this post</button>
+                    </div>
+                </div>  
+            </section>
+        </main>
+
+        <footer><button>Home</button><button>My Posts</button><button>New Post</button><button>My Account</button></footer>
+
+    </body>
+</html>
